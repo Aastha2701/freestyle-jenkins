@@ -55,7 +55,7 @@
       - docker build . -t myimg:latest
    
       - docker run -itd -p 8000:8000 myimg:latest
-   
-    
+        
 
-     
+  - Click on Build now
+   

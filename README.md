@@ -22,3 +22,11 @@
   - Enter an item name = my-own-project-freestyle
 
   - Select Freestyle project and  Click ok
+
+  - GitHub project = Github-repo url
+
+  - Source Code Management = Github-repo url
+
+  - Credentials  =  Add --->  generate it
+
+  - Save

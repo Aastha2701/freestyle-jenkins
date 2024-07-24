@@ -89,3 +89,15 @@
 - Copy your instance id and paste it along with :8000
 
 #### ( Successfully your application is running inside container with same port number )
+
+
+#### STEP-9 :-  For Automatic build process
+
+
+- Go to Jenkins dashboard  --->  Select your project  ---->  Configure
+  
+- Build Triggers   ----->  Enable : GitHub hook trigger for GITScm polling   ---> save
+
+- Click on Jenkins dashboard   ---->  Manage Jenkins  --->  Plugins
+
+- Click on Available plug-ins  --->  Install GitHub Integration plug-in ( Restart it )

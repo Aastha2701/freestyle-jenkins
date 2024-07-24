@@ -81,3 +81,11 @@
     - docker-compose down
  
     - docker-compose up -d --force-recreate --no-deps --build web
+ 
+- Go to your Github and chnage your code anything for test
+
+- Click on Build now
+
+- Copy your instance id and paste it along with :8000
+
+#### ( Successfully your application is running inside container with same port number )

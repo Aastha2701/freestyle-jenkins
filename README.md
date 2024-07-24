@@ -63,7 +63,7 @@
 
 #### ( Successfully your application is running inside container )
 
-( If you want to start this project automation wise , first kill(M)  your exixting container for same port number allocation )
+( If you want to start this project automation wise , first kill(M)  your existing container for same port number allocation )
 
  
 - Now Install Docker Compose ( Go to your terminal )

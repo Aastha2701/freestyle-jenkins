@@ -5,6 +5,12 @@
 
 #### STEP-2 :-  Install java
 
+- sudo apt update
+
+- sudo apt install openjdk-11-jre -y
+
+- java -version
+
 #### STEP-3 :-  Set-up Jenkins binary and key files
 
 #### STEP-4 :-  Install jenkins and Login it
@@ -31,7 +37,7 @@
 
   - Save
 
-  - Now Install Docker & allow permission
+  - Now Install Docker & allow permission ( Go to your terminal )
     
       - sudo apt-get install docker.io -y
    

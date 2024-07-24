@@ -48,3 +48,14 @@
       - sudo systemctl restart docker
    
       - sudo systemctl restart jenkins
+        
+
+  - Go to Jenkins dashboard  --->  Select your project  ---->  Configure  --->  Add a build step -----> Execute shell
+
+      - docker build . -t myimg:latest
+   
+      - docker run -itd -p 8000:8000 myimg:latest
+   
+    
+
+     

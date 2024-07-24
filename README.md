@@ -13,6 +13,8 @@
 
 #### STEP-3 :-  Set-up Jenkins binary and key files
 
+- Visit here :-  https://www.jenkins.io/doc/book/installing/linux/#debianubuntu)
+
 #### STEP-4 :-  Install jenkins and Login it
 
 #### STEP-5 :-  Generate password and mention your password

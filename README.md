@@ -68,7 +68,7 @@
  
 - Now Install Docker Compose ( Go to your terminal )
 
-   ( No need to kill your container mannually )
+   ( Help of Docker-compose , No need to kill your container mannually )
   
   - sudo apt-get install docker-compose -y
  

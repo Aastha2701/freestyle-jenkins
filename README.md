@@ -76,6 +76,8 @@
 
 - Go to Jenkins dashboard  --->  Select your project  ---->  Configure  --->  Add a build step -----> Execute shell
 
+  ( Delete previous code and add below code )
+
     - docker-compose down
  
     - docker-compose up -d --force-recreate --no-deps --build web

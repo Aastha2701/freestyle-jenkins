@@ -61,7 +61,7 @@
 
   - Copy your instance id and paste it along with :8000
 
-#### ( Successfully your application is running inside container )
+##### ( Successfully your application is running inside container )
 
 ( If you want to start this project automation wise , first kill(M)  your existing container for same port number allocation )
 
@@ -88,11 +88,12 @@
 
 - Copy your instance id and paste it along with :8000
 
-#### ( Successfully your application is running inside container with same port number )
+##### ( Successfully your application is running inside container with same port number )
 
 
 #### STEP-9 :-  For Automatic build process
 
+##### A. For Jenkins Settings 
 
 - Go to Jenkins dashboard  --->  Select your project  ---->  Configure
   
@@ -101,3 +102,14 @@
 - Click on Jenkins dashboard   ---->  Manage Jenkins  --->  Plugins
 
 - Click on Available plug-ins  --->  Install GitHub Integration plug-in ( Restart it )
+
+
+##### B. For Github Settings
+
+- Go to GitHub ----> Click on Your Repository -----> Click on Settings ----> Go to Webhooks
+
+- Add Webhook ---> Payload URL = mention your jenkins url/github-webhook/
+
+- Content type = application/json
+
+- Add Webhook

@@ -62,4 +62,20 @@
   - Copy your instance id and paste it along with :8000
 
 #### ( Successfully your application is running inside container )
-   
+
+( If you want to start this project automation wise , first kill(M)  your exixting container for same port number allocation )
+
+ 
+- Now Install Docker Compose ( Go to your terminal )
+
+   ( No need to kill your container mannually )
+  
+  - sudo apt-get install docker-compose -y
+ 
+  - docker-compose --version
+
+- Go to Jenkins dashboard  --->  Select your project  ---->  Configure  --->  Add a build step -----> Execute shell
+
+    - docker-compose down
+ 
+    - docker-compose up -d --force-recreate --no-deps --build web

@@ -15,7 +15,7 @@
 
 #### STEP-7 :-  Define jenkins username and password
 
-#### STEP-8 :-  Go to jenkins dashboard and create project
+#### STEP-8 :-  Go to jenkins dashboard and create project ( Container only )
 
   - Click on New Item
     
@@ -30,3 +30,15 @@
   - Credentials  =  Add --->  generate it
 
   - Save
+
+  - Now Install Docker & allow permission
+    
+      - sudo apt-get install docker.io -y
+   
+      - sudo usermod -aG docker $USER
+   
+      - sudo usermod -aG docker jenkins
+   
+      - sudo systemctl restart docker
+   
+      - sudo systemctl restart jenkins

@@ -58,4 +58,8 @@
         
 
   - Click on Build now
+
+  - Copy your instance id and paste it along with :8000
+
+#### ( Successfully your application is running inside container )
    

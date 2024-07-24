@@ -16,3 +16,9 @@
 #### STEP-7 :-  Define jenkins username and password
 
 #### STEP-8 :-  Go to jenkins dashboard and create project
+
+  - Click on New Item
+    
+  - Enter an item name = my-own-project-freestyle
+
+  - Select Freestyle project and  Click ok
